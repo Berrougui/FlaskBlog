@@ -6,11 +6,16 @@ Installer les differents packages
 
 pip install -r requirements.txt
 
-* app.py:
-gère l'affichage de l'application
-* Index.html
+* app.py: gère l'affichage de l'application
 
-*
+* index.html: la page d’accueil
+
+* Base.html le code html en commun avec les autres fichier (Héritage de modèles dans Jinja)
+
+* schema.sql : créer une base de donnée SQLite
+
+* init_db.py ouvrir une connexion à un fichier de base de données nommé base de database.db
+
 
 Lancer l'application sur le serveur: http://127.0.0.1:5000/
 
